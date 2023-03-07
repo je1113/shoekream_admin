@@ -2,7 +2,8 @@ name: jooeun-github CD
 
 on:
   push:
-    branches: [ develop ] # develop에 push될 때 CD가 일어나도록 핸들링
+    branches: 
+    - main
 
 jobs:
   build:
